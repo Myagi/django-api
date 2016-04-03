@@ -1,0 +1,7 @@
+djangorestframework==3.3.2
+isodate==0.5.4
+pandas==0.16.0
+django-pandas==0.2.2
+rest-pandas==0.3.2
+djangorestframework-filters==0.3.0
+django-filter==0.11.0
