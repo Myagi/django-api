@@ -8,7 +8,7 @@ from rest_framework import serializers
 
 import rest_pandas
 
-from .pandas.io import read_frame
+from .utils.pandas.io import read_frame
 
 from .decorators import classproperty
 

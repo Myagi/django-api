@@ -18,7 +18,7 @@ from rest_framework.relations import PKOnlyObject
 from rest_framework.fields import ImageField, FileField, SkipField
 from rest_framework.compat import unicode_to_repr
 
-from .api.utils import get_view_class
+from .utils import get_view_class
 
 import re
 

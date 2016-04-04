@@ -11,6 +11,6 @@ setup(name='django-simple-api',
       author='Alex McLeod',
       author_email='alex.mcleod@myagi.com',
       license='MIT',
-      packages=['simple-api'],
+      packages=['simple_api'],
       install_requires=reqs,
       zip_safe=False)
