@@ -1,4 +1,8 @@
 from setuptools import setup
+from pip.req import parse_requirements
+
+install_reqs = parse_requirements('./requirements.txt', session=False)
+reqs = [str(ir.req) for ir in install_reqs]
 
 setup(name='django-simple-api',
       version='0.1',
@@ -8,4 +12,5 @@ setup(name='django-simple-api',
       author_email='alex.mcleod@myagi.com',
       license='MIT',
       packages=['simple-api'],
+      install_requires=reqs,
       zip_safe=False)
