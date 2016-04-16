@@ -4,7 +4,7 @@ load serializers for models.
 """
 
 
-from myagi_django.utils import get_classes_in_module
+from . import get_classes_in_module
 
 
 class NoSerializerException(Exception):
